@@ -2,9 +2,10 @@
 #define __GLOBAL__
 #include "stm32f1xx_hal.h"
 
-/* Hal Level Varibles */
+/* Hal Level Varibles names match generated varible names*/
 extern RTC_HandleTypeDef hrtc;
-//extern SPI_HandleTypeDef hspi1;
+extern I2C_HandleTypeDef hi2c1;
+extern SPI_HandleTypeDef hspi1;
 extern TIM_HandleTypeDef htim1;
 extern TIM_HandleTypeDef htim2;
 extern TIM_HandleTypeDef htim3;

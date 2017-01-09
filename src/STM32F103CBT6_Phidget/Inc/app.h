@@ -17,6 +17,5 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
 /* Setup code for microcontroller*/
 static void APP_SetupOnce(void);
 
-
-
 #endif /* __PHIDGET_APP_H__ */
+	 
